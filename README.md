@@ -4,7 +4,129 @@ Code for technical paper 2
 copy from Technical_Paper_2/github_20251121   <-- from Different-collaborative-system-hengxu
 
 
-# Centralized
+# centralized
+
+## AS1
+
+1. direct/AS1-Accuracy.py [具体的测试ASR的文件]
+
+2. summary/AS1-Accuracy.py
+
+3. vote/AS1-Accuracy.py
+
+## AS2
+
+1. direct
+
+2. summary
+
+3. vote
+
+GPT-code-ACC.py [计算ASR]
+
+## AS3
+
+1. direct
+
+2. summary
+
+3. vote
+
+test.sh [启动测试代码]
+
+--> dataprocess.py [数据处理]
+
+--> AS3-ACC-399-ASR.py [ASR 计算]
 
 
-# 
+ACC_truth_false.py [得到 Table.5 的结果]
+
+AS3-ACC-500-CA.py [CA 计算]
+
+## other
+
+- AS1.py [mislead tool setection]
+
+- AS2.py [mislead to leak RAG knowledge]
+
+- AS3.py [mislead final answer]
+
+- inferense.sh
+
+- llama3_prompt.py [使用到的 prompt]
+
+- llama3_utils.py [LLM 构造文件]
+
+- run.sh
+
+- similarity.py [计算 句子的相似度， 用在 AS2中]
+
+[run attack --> bash run.sh]
+[evaluate ASR --> bash inference.sh]
+
+# horizontal
+
+## AS1
+
+## AS2
+
+## AS3
+
+## other
+
+- AS1.py
+
+- AS2.py
+
+- AS3.py
+
+- inferense.sh
+
+- llama3_prompt.py
+
+- llama3_utils.py
+
+- run.sh
+
+- similarity.py
+
+
+# joint
+
+## AS1
+
+## AS2
+
+## AS3
+
+## other
+
+- AS1.py
+
+- AS2.py
+
+- AS3.py
+
+- inferense.sh
+
+- llama3_prompt.py
+
+- llama3_utils.py
+
+- run.sh
+
+- similarity.py
+
+# other file 
+
+- dataset 
+
+medalpaca-medical-meadow-medqa-500.json
+
+qa-data.json
+
+- file
+
+run.sh
+
+list.txt
