@@ -1,0 +1,80 @@
+Centralized system
+query --> A <--> B
+          A <--> C
+          A --> out
+
+Horizontal system
+query --> A --> B --> C --> out
+
+Joint system
+query --> (A --> B --> C --> A) --> out
+
+###################################
+
+direct communication
+out_b = [out_a, B(out_a)]
+
+summary communication
+out_b = B_{summary}(out_a, B(out_a))
+
+vote communication
+out_b = B_{vote}(out_a, B(out_a))
+
+###################################
+
+Centralized system
+完整的内容在
+Technical_Paper_2/New-Thinks-20250713
+
+###################################
+
+三种攻击方法
+AS1.py  -direct/summary/vote
+AS2.py  -direct/summary/vote
+AS3.py  -direct/summary/vote
+
+###################################
+
+使用的prompt列表
+llama3_prompt.py
+
+LLM列表
+llama3_utils.py
+
+similarity.py 用于AS2.py计算 知识和查询的相关度
+
+###################################
+
+run.sh  运行攻击脚本
+
+inferense.sh  测试ASR脚本
+
+
+###################################
+
+
+------AS1-----
+AS1-ACC-400.py 计算CA and ASR sample=400
+
+###################################
+
+------AS2-----
+AS2-ACC-400-ASR.py  ASR计算 sample=400
+
+###################################
+
+------AS3-----
+"""
+dataprocess.py  处理函数，把结果转化为 0和1， 并排除掉所有原本答案为 A 的选项 (399 sample)
+results --> direct/process/AS3-attack   其中 1 代表被成功误导到 选项A
+        --> direct/process/AS3          其中 1 代表 该答案 是正确 的答案
+
+AS3-ACC-500-CA.py  --> clean accuracy for 500 sample
+
+AS3-ACC-399-ASR.py --> ASR for 399 sample
+
+ACC_truth_false.py 统计函数 --> 计算前一轮的结果 如何 影响后一轮 的结果 (sample=399)
+
+results --> Book1_Technical2.xlsx --> Table VI and VII
+"""
+
