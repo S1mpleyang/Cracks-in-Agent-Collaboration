@@ -1,7 +1,19 @@
 # Cracks-in-Collaboration
-Code for technical paper 2
+
+Code for Cracks in Collaboration: Threat Models and Attacks on Multi-LLM Collaborative Systems
 
 copy from Technical_Paper_2/github_20251121   <-- from Different-collaborative-system-hengxu
+
+@ARTICLE{Yang2026Cracks,
+  author={Yang, Meng and Zhu, Tianqing and Liu, Bo and Xu, Heng and Zhou, Wanlei},
+  journal={IEEE Transactions on Dependable and Secure Computing}, 
+  title={Cracks in Collaboration: Threat Models and Attacks on Multi-LLM Collaborative Systems}, 
+  year={2026},
+  volume={},
+  number={},
+  pages={1-17},
+  doi={10.1109/TDSC.2026.3670889}}
+
 
 
 # centralized
