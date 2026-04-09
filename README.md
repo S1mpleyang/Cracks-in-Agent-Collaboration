@@ -18,6 +18,18 @@ If you find our work is helpful, please leave us a star
   doi={10.1109/TDSC.2026.3670889}}
 ```
 
+## Introduction
+
+### Structure
+
+### Communication
+
+### Experiment
+
+### Case Example
+
+## Acknowledgement
+
 
 # centralized
 
