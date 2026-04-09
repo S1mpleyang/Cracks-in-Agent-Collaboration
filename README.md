@@ -20,13 +20,24 @@ If you find our work is helpful, please leave us a star
 
 ## Introduction
 
-### Structure
+## Structure
+### Centralized
 
-### Communication
+### Horizontal
 
-### Experiment
+### Hybrid
 
-### Case Example
+## Communication
+
+### Direct
+
+### Summary
+
+### Vote
+
+## Experiment
+
+## Case Example
 
 ## Acknowledgement
 
