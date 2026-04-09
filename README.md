@@ -4,6 +4,7 @@ Code for Cracks in Collaboration: Threat Models and Attacks on Multi-LLM Collabo
 
 copy from Technical_Paper_2/github_20251121   <-- from Different-collaborative-system-hengxu
 
+'''
 @ARTICLE{Yang2026Cracks,
   author={Yang, Meng and Zhu, Tianqing and Liu, Bo and Xu, Heng and Zhou, Wanlei},
   journal={IEEE Transactions on Dependable and Secure Computing}, 
@@ -13,7 +14,7 @@ copy from Technical_Paper_2/github_20251121   <-- from Different-collaborative-s
   number={},
   pages={1-17},
   doi={10.1109/TDSC.2026.3670889}}
-
+'''
 
 
 # centralized
