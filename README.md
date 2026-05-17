@@ -154,6 +154,7 @@ AS3-ACC-500-CA.py [CA 计算]
 
 ## AS3
 
+<!--
 ## other
 
 - AS1.py
@@ -172,7 +173,7 @@ AS3-ACC-500-CA.py [CA 计算]
 
 - similarity.py
 
-<!--
+
 # other file 
 
 - dataset 
