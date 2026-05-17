@@ -19,9 +19,7 @@ If you find our work is helpful, please leave us a star
 # Step1
 Create virtual environment
 ```
-conda create -n STRT python=3.6
-conda activate STRT
-pip install -r requirements.txt
+conda env create -f environment.yml
 ```
 
 # Step2
@@ -58,6 +56,7 @@ Any question please contact yangmengjlu@gmail.com.
 ## Acknowledgement
 
 
+<!--
 # centralized
 
 ## AS1
@@ -185,4 +184,4 @@ qa-data.json
 
 run.sh
 
-list.txt
+list.txt <!-->
