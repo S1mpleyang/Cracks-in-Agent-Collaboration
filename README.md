@@ -21,6 +21,19 @@ If you find our work is helpful, please leave us a star
   doi={10.1109/TDSC.2026.3670889}}
 ```
 
+# Multi-LLM Collaborative framework
+
+Centralized
+![image](https://github.com/S1mpleyang/Cracks-in-Collaboration/blob/main/images/centralized.png)
+
+Horizontal
+![image](https://github.com/S1mpleyang/Cracks-in-Collaboration/blob/main/images/horizontal.png)
+
+Joint
+![image](https://github.com/S1mpleyang/Cracks-in-Collaboration/blob/main/images/joint.png)
+
+# Attack Framework
+
 # Step1
 Create virtual environment
 ```
