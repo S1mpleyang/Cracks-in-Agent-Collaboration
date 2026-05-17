@@ -37,7 +37,7 @@ Any question please contact yangmengjlu@gmail.com.
 
 ## Structure
 ### Centralized
-![image](https://github.com/S1mpleyang/Cracks-in-Collaboration/images/Horizontal.pdf)
+![image](https://github.com/S1mpleyang/Cracks-in-Collaboration/blob/main/images/Horizontal.pdf)
 
 ### Horizontal
 
@@ -61,6 +61,8 @@ Any question please contact yangmengjlu@gmail.com.
 # centralized
 
 ## AS1
+
+![image](https://github.com/S1mpleyang/Cracks-in-Collaboration/blob/main/images/AS-I.drawio.pdf)
 
 1. direct/AS1-Accuracy.py [具体的测试ASR的文件]
 
