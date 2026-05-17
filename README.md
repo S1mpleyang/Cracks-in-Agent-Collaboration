@@ -124,6 +124,7 @@ AS3-ACC-500-CA.py [CA 计算]
 [run attack --> bash run.sh]
 [evaluate ASR --> bash inference.sh]
 
+<!--
 # horizontal
 
 ## AS1
@@ -150,7 +151,7 @@ AS3-ACC-500-CA.py [CA 计算]
 
 - similarity.py
 
-
+<!--
 # joint
 
 ## AS1
