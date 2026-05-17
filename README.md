@@ -15,9 +15,9 @@ If you find our work is helpful, please leave us a star
   journal={IEEE Transactions on Dependable and Secure Computing}, 
   title={Cracks in Collaboration: Threat Models and Attacks on Multi-LLM Collaborative Systems}, 
   year={2026},
-  volume={},
-  number={},
-  pages={1-17},
+  volume={23},
+  number={3},
+  pages={7191-7207},
   doi={10.1109/TDSC.2026.3670889}}
 ```
 
