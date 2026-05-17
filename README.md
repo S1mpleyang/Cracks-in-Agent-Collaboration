@@ -39,6 +39,14 @@ The server solve the task based on the client responses.
 
 ![image](https://github.com/S1mpleyang/Cracks-in-Collaboration/blob/main/images/joint.png)
 
+### Communication Process
+
+Direct:
+
+Summary:
+
+Vote:
+
 ## Attack Framework
 
 ### Decision Poisoning Attack (AS-I)
