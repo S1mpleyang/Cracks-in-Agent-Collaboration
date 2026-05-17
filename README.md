@@ -96,12 +96,8 @@ test.sh [启动测试代码]
 
 <!--
 --> dataprocess.py [数据处理]
-
 --> AS3-ACC-399-ASR.py [ASR 计算]
-
-
 ACC_truth_false.py [得到 Table.5 的结果]
-
 AS3-ACC-500-CA.py [CA 计算]
 -->
 
