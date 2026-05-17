@@ -56,7 +56,6 @@ Any question please contact yangmengjlu@gmail.com.
 ## Acknowledgement
 
 
-<!--
 # centralized
 
 ## AS1
@@ -97,6 +96,7 @@ test.sh [启动测试代码]
 ACC_truth_false.py [得到 Table.5 的结果]
 
 AS3-ACC-500-CA.py [CA 计算]
+
 
 ## other
 
@@ -172,6 +172,7 @@ AS3-ACC-500-CA.py [CA 计算]
 
 - similarity.py
 
+<!--
 # other file 
 
 - dataset 
