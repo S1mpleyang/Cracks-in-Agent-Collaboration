@@ -48,11 +48,11 @@ Each LLM can freely communicate with other LLMs.
 
 ### Communication Process
 
-Direct:  $K^{i+1} = K^i_{cc_0} \oplus K^i_{cc_1}, \oplus \dots \oplus K^i_{cc_n}.$
+Direct:  Each message will directly concatenate as the new message as $K^{i+1} = K^i_{cc_0} \oplus K^i_{cc_1}, \oplus \dots \oplus K^i_{cc_n}.$
 
-Summary: $K^{i+1} = summary(K^i_{cc_0}, K^i_{cc_1}, \dots, K^i_{cc_n}).$
+Summary:  model summary the previous message as the new message as $K^{i+1} = summary(K^i_{cc_0}, K^i_{cc_1}, \dots, K^i_{cc_n}).$
 
-Vote: $\exists K^{i+1} \in (K^i_{cc_0}, K^i_{cc_1}, \dots, K^i_{cc_n}).$
+Vote: model selects one piece of provided message as the most suitable and uses it as the updated message for the next round as $\exists K^{i+1} \in (K^i_{cc_0}, K^i_{cc_1}, \dots, K^i_{cc_n}).$
 
 ## Attack Framework
 
