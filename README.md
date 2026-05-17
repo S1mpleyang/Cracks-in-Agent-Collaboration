@@ -25,17 +25,24 @@ If you find our work is helpful, please leave us a star
 
 ### Centralized
 
-These will be a server LLM and several client LLMs in this framework, 
-where server distribute the task to clients and clients return their response to the server. 
+There will be a server LLM and several client LLMs in this framework.
+
+Server distribute the task to clients and clients return their response to the server. 
 The server solve the task based on the client responses.
 
 ![image](https://github.com/S1mpleyang/Cracks-in-Collaboration/blob/main/images/centralized.png)
 
 ### Horizontal
 
+Each LLM are linked one-by-one, where the first LLM get the user query and generate a response.
+
+Then the query and response are sent to the next LLM until the final one. 
+
 ![image](https://github.com/S1mpleyang/Cracks-in-Collaboration/blob/main/images/horizontal.png)
 
 ### Joint
+
+Each LLM can freely communicate with other LLMs.
 
 ![image](https://github.com/S1mpleyang/Cracks-in-Collaboration/blob/main/images/joint.png)
 
@@ -72,6 +79,7 @@ run the code
 ```
 bash run.sh
 ```
+This code will run each script in folder ./centralized ./horizontal and ./joint
 
 # Contact
 Any question please contact yangmengjlu@gmail.com.
