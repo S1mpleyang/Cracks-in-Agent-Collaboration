@@ -1,6 +1,11 @@
 # Cracks-in-Collaboration
 
-This is the official repository for paper [Cracks in Collaboration: Threat Models and Attacks on Multi-LLM Collaborative Systems](https://ieeexplore.ieee.org/abstract/document/11424974) published in IEEE Transactions on Dependable and Secure Computing
+This is the official repository for paper [Cracks in Collaboration: Threat Models and Attacks on Multi-LLM Collaborative Systems](https://ieeexplore.ieee.org/abstract/document/11424974) published in IEEE Transactions on Dependable and Secure Computing.
+
+The paper investigates the emerging security risks in collaborative multi-agent LLM systems, where multiple language models interact, coordinate, and exchange information to solve complex tasks.  
+We systematically analyze the threat surface introduced by internal communication and propose novel attack strategies that exploit collaboration mechanisms, including malicious prompt injection (tool-call), information stealing, response manipulate. The work further presents a comprehensive threat model, empirical evaluations across three representative collaboration frameworks (centralized framework, horizontal framework and joint framework), and insights into the security implications of autonomous LLM collaboration.
+
+This repository contains the implementation and resources for reproducing the results presented in the paper.
 
 ## citation
 If you find our work is helpful, please leave us a star
