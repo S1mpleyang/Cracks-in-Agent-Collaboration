@@ -41,17 +41,11 @@ The server solve the task based on the client responses.
 
 ### Communication Process
 
-Direct:  \begin{equation}
-        K^{i+1} = K^i_{cc_0} \oplus K^i_{cc_1}, \oplus \dots \oplus K^i_{cc_n}.
-    \end{equation}
+Direct:  $K^{i+1} = K^i_{cc_0} \oplus K^i_{cc_1}, \oplus \dots \oplus K^i_{cc_n}.$
 
-Summary: \begin{equation}
-        K^{i+1} = summary(K^i_{cc_0}, K^i_{cc_1}, \dots, K^i_{cc_n}).
-    \end{equation}
+Summary: $K^{i+1} = summary(K^i_{cc_0}, K^i_{cc_1}, \dots, K^i_{cc_n}).$
 
-Vote: \begin{equation}
-        \exists K^{i+1} \in (K^i_{cc_0}, K^i_{cc_1}, \dots, K^i_{cc_n}).
-    \end{equation}
+Vote: $\exists K^{i+1} \in (K^i_{cc_0}, K^i_{cc_1}, \dots, K^i_{cc_n}).$
 
 ## Attack Framework
 
