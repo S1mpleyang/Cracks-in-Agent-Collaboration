@@ -113,9 +113,6 @@ test.sh [启动测试代码]
 
 - similarity.py [计算 句子的相似度， 用在 AS2中]
 
-[run attack --> bash run.sh]
-[evaluate ASR --> bash inference.sh]
-
 <!--
 # horizontal
 
