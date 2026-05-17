@@ -25,6 +25,10 @@ If you find our work is helpful, please leave us a star
 
 ### Centralized
 
+These will be a server LLM and several client LLMs in this framework, 
+where server distribute the task to clients and clients return their response to the server. 
+The server solve the task based on the client responses.
+
 ![image](https://github.com/S1mpleyang/Cracks-in-Collaboration/blob/main/images/centralized.png)
 
 ### Horizontal
