@@ -36,6 +36,7 @@ bash run.sh
 # Contact
 Any question please contact yangmengjlu@gmail.com.
 
+<!--
 ## Introduction
 
 ## Structure
@@ -102,7 +103,7 @@ ACC_truth_false.py [得到 Table.5 的结果]
 
 AS3-ACC-500-CA.py [CA 计算]
 
-
+<!--
 ## other
 
 - AS1.py [mislead tool setection]
