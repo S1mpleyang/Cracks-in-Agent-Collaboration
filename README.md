@@ -2,8 +2,6 @@
 
 This is the official repository for paper [Cracks in Collaboration: Threat Models and Attacks on Multi-LLM Collaborative Systems](https://ieeexplore.ieee.org/abstract/document/11424974) published in IEEE Transactions on Dependable and Secure Computing
 
-copy from Technical_Paper_2/github_20251121   <-- from Different-collaborative-system-hengxu
-
 ## citation
 If you find our work is helpful, please leave us a star
 ```
@@ -18,10 +16,28 @@ If you find our work is helpful, please leave us a star
   doi={10.1109/TDSC.2026.3670889}}
 ```
 
+# Step1
+Create virtual environment
+```
+conda create -n STRT python=3.6
+conda activate STRT
+pip install -r requirements.txt
+```
+
+# Step2
+run the code
+```
+bash run.sh
+```
+
+# Contact
+Any question please contact yangmengjlu@gmail.com.
+
 ## Introduction
 
 ## Structure
 ### Centralized
+![image](https://github.com/S1mpleyang/Cracks-in-Collaboration/images/Horizontal.pdf)
 
 ### Horizontal
 
