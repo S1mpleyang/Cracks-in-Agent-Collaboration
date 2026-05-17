@@ -23,16 +23,31 @@ If you find our work is helpful, please leave us a star
 
 # Multi-LLM Collaborative framework
 
-Centralized
+## Centralized
+
 ![image](https://github.com/S1mpleyang/Cracks-in-Collaboration/blob/main/images/centralized.png)
 
-Horizontal
+## Horizontal
+
 ![image](https://github.com/S1mpleyang/Cracks-in-Collaboration/blob/main/images/horizontal.png)
 
-Joint
+## Joint
+
 ![image](https://github.com/S1mpleyang/Cracks-in-Collaboration/blob/main/images/joint.png)
 
 # Attack Framework
+
+## Decision Poisoning Attack (AS-I)
+
+![image](https://github.com/S1mpleyang/Cracks-in-Collaboration/blob/main/images/AS-I.png)
+
+## Indirect EchoLeak Attack (AS-II)
+
+![image](https://github.com/S1mpleyang/Cracks-in-Collaboration/blob/main/images/AS-II.png)
+
+## Information Collision Attack (AS-III)
+
+![image](https://github.com/S1mpleyang/Cracks-in-Collaboration/blob/main/images/AS-III.png)
 
 # Step1
 Create virtual environment
