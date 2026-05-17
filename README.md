@@ -81,6 +81,10 @@ bash run.sh
 ```
 This code will run each script in folder ./centralized ./horizontal and ./joint
 
+# Case Study
+
+![image][(https://github.com/S1mpleyang/Cracks-in-Collaboration/tree/main/case/case1.png)]
+
 # Contact
 Any question please contact yangmengjlu@gmail.com.
 
