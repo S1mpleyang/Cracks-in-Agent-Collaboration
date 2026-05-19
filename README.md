@@ -1,4 +1,4 @@
-# Cracks-in-Collaboration
+# Cracks-in-Agent-Collaboration
 
 This is the official repository for paper [Cracks in Collaboration: Threat Models and Attacks on Multi-LLM Collaborative Systems](https://ieeexplore.ieee.org/abstract/document/11424974) published in IEEE Transactions on Dependable and Secure Computing.
 
